@@ -1,0 +1,186 @@
+./schedulersim -u10 < traces/inner-product.trc > test1/inner-product.trc_u10.out
+
+./schedulersim -u10 < traces/inner-product.trc > test1/inner-product.trc_u10.out
+
+./schedulersim -u10 < traces/inner-product.trc > test3/inner-product.trc_u10.out
+
+
+gen-lin-recc
+
+//2 2 6
+./schedulersim -a2 -d2 -m6 < traces/gen-lin-recc.trc > test1/gen-lin-recc.trc_a2_d2_m6.out
+
+./schedulersim -a2 -d6 -m2 < traces/gen-lin-recc.trc > test1/gen-lin-recc.trc_a2_d6_m2.out
+
+./schedulersim -a6 -d2 -m2 < traces/gen-lin-recc.trc > test1/gen-lin-recc.trc_a6_d2_m2.out
+
+//2 4 4
+./schedulersim -a2 -d4 -m4 < traces/gen-lin-recc.trc > test1/gen-lin-recc.trc_a2_d4_m4.out
+
+./schedulersim -a4 -d2 -m4 < traces/gen-lin-recc.trc > test1/gen-lin-recc.trc_a4_d2_m4.out
+
+./schedulersim -a4 -d4 -m2 < traces/gen-lin-recc.trc > test1/gen-lin-recc.trc_a4_d4_m2.out
+
+//3 3 4
+./schedulersim -a3 -d3 -m4 < traces/gen-lin-recc.trc > test1/gen-lin-recc.trc_a3_d3_m4.out
+
+./schedulersim -a3 -d4 -m3 < traces/gen-lin-recc.trc > test1/gen-lin-recc.trc_a3_d4_m3.out
+
+./schedulersim -a4 -d3 -m3 < traces/gen-lin-recc.trc > test1/gen-lin-recc.trc_a4_d3_m3.out
+
+//2 3 5
+./schedulersim -a2 -d3 -m5 < traces/gen-lin-recc.trc > test1/gen-lin-recc.trc_a2_d3_m5.out
+
+./schedulersim -a2 -d5 -m3 < traces/gen-lin-recc.trc > test1/gen-lin-recc.trc_a2_d5_m3.out
+
+./schedulersim -a3 -d2 -m5 < traces/gen-lin-recc.trc > test1/gen-lin-recc.trc_a3_d2_m5.out
+
+./schedulersim -a3 -d5 -m2 < traces/gen-lin-recc.trc > test1/gen-lin-recc.trc_a3_d5_m2.out
+
+./schedulersim -a5 -d2 -m3 < traces/gen-lin-recc.trc > test1/gen-lin-recc.trc_a5_d2_m3.out
+
+./schedulersim -a5 -d3 -m2 < traces/gen-lin-recc.trc > test1/gen-lin-recc.trc_a5_d3_m2.out
+
+
+
+---------------------------------------
+
+./schedulersim -a5 -d1 -m4 < traces/gen-lin-recc.trc > test1/gen-lin-recc.trc_a5_d1_m4.out
+
+./schedulersim -a4 -d1 -m5 < traces/gen-lin-recc.trc > test1/gen-lin-recc.trc_a4_d1_m5.out
+
+./schedulersim -a3 -d1 -m6 < traces/gen-lin-recc.trc > test1/gen-lin-recc.trc_a3_d1_m6.out
+
+./schedulersim -a6 -d1 -m3 < traces/gen-lin-recc.trc > test1/gen-lin-recc.trc_a6_d1_m3.out
+
+./schedulersim -a2 -d1 -m7 < traces/gen-lin-recc.trc > test1/gen-lin-recc.trc_a2_d1_m7.out
+
+./schedulersim -a7 -d1 -m2 < traces/gen-lin-recc.trc > test1/gen-lin-recc.trc_a7_d1_m2.out
+
+
+-------------------------------
+
+iccg
+
+//2 2 6
+./schedulersim -a2 -d2 -m6 < traces/iccg.trc > test2/iccg.trc_a2_d2_m6.out
+
+./schedulersim -a2 -d6 -m2 < traces/iccg.trc > test2/iccg.trc_a2_d6_m2.out
+
+./schedulersim -a6 -d2 -m2 < traces/iccg.trc > test2/iccg.trc_a6_d2_m2.out
+
+//2 4 4
+./schedulersim -a2 -d4 -m4 < traces/iccg.trc > test2/iccg.trc_a2_d4_m4.out
+
+./schedulersim -a4 -d2 -m4 < traces/iccg.trc > test2/iccg.trc_a4_d2_m4.out
+
+./schedulersim -a4 -d4 -m2 < traces/iccg.trc > test2/iccg.trc_a4_d4_m2.out
+
+//3 3 4
+./schedulersim -a3 -d3 -m4 < traces/iccg.trc > test2/iccg.trc_a3_d3_m4.out
+
+./schedulersim -a3 -d4 -m3 < traces/iccg.trc > test2/iccg.trc_a3_d4_m3.out
+
+./schedulersim -a4 -d3 -m3 < traces/iccg.trc > test2/iccg.trc_a4_d3_m3.out
+
+//2 3 5
+./schedulersim -a2 -d3 -m5 < traces/iccg.trc > test2/iccg.trc_a2_d3_m5.out
+
+./schedulersim -a2 -d5 -m3 < traces/iccg.trc > test2/iccg.trc_a2_d5_m3.out
+
+./schedulersim -a3 -d2 -m5 < traces/iccg.trc > test2/iccg.trc_a3_d2_m5.out
+
+./schedulersim -a3 -d5 -m2 < traces/iccg.trc > test2/iccg.trc_a3_d5_m2.out
+
+./schedulersim -a5 -d2 -m3 < traces/iccg.trc > test2/iccg.trc_a5_d2_m3.out
+
+./schedulersim -a5 -d3 -m2 < traces/iccg.trc > test2/iccg.trc_a5_d3_m2.out
+
+
+
+./schedulersim -a7 -d1 -m2 < traces/iccg.trc > test2/iccg.trc_a7_d1_m2.out
+
+./schedulersim -a6 -d1 -m3 < traces/iccg.trc > test2/iccg.trc_a6_d1_m3.out
+
+./schedulersim -a4 -d1 -m5 < traces/iccg.trc > test2/iccg.trc_a4_d1_m5.out
+
+./schedulersim -a5 -d1 -m4 < traces/iccg.trc > test2/iccg.trc_a5_d1_m4.out
+
+./schedulersim -a3 -d1 -m6 < traces/iccg.trc > test2/iccg.trc_a3_d1_m6.out
+
+./schedulersim -a1 -d8 -m1 < traces/iccg.trc > test2/iccg.trc_a1_d8_m1.out
+
+./schedulersim -a2 -d7 -m1 < traces/iccg.trc > test2/iccg.trc_a2_d7_m1.out
+
+./schedulersim -a1 -d7 -m2 < traces/iccg.trc > test2/iccg.trc_a1_d7_m2.out
+
+./schedulersim -a1 -d6 -m3 < traces/iccg.trc > test2/iccg.trc_a1_d6_m3.out
+
+./schedulersim -a3 -d6 -m1 < traces/iccg.trc > test2/iccg.trc_a3_d6_m1.out
+
+./schedulersim -a7 -d2 -m1 < traces/iccg.trc > test2/iccg.trc_a7_d2_m1.out
+
+
+
+-----------------------------------------------------
+
+
+inner-product
+
+//2 2 6
+./schedulersim -a2 -d2 -m6 < traces/inner-product.trc > test3/inner-product.trc_a2_d2_m6.out
+
+./schedulersim -a2 -d6 -m2 < traces/inner-product.trc > test3/inner-product.trc_a2_d6_m2.out
+
+./schedulersim -a6 -d2 -m2 < traces/inner-product.trc > test3/inner-product.trc_a6_d2_m2.out
+
+//2 4 4
+./schedulersim -a2 -d4 -m4 < traces/inner-product.trc > test3/inner-product.trc_a2_d4_m4.out
+
+./schedulersim -a4 -d2 -m4 < traces/inner-product.trc > test3/inner-product.trc_a4_d2_m4.out
+
+./schedulersim -a4 -d4 -m2 < traces/inner-product.trc > test3/inner-product.trc_a4_d4_m2.out
+
+//3 3 4
+./schedulersim -a3 -d3 -m4 < traces/inner-product.trc > test3/inner-product.trc_a3_d3_m4.out
+
+./schedulersim -a3 -d4 -m3 < traces/inner-product.trc > test3/inner-product.trc_a3_d4_m3.out
+
+./schedulersim -a4 -d3 -m3 < traces/inner-product.trc > test3/inner-product.trc_a4_d3_m3.out
+
+//2 3 5
+./schedulersim -a2 -d3 -m5 < traces/inner-product.trc > test3/inner-product.trc_a2_d3_m5.out
+
+./schedulersim -a2 -d5 -m3 < traces/inner-product.trc > test3/inner-product.trc_a2_d5_m3.out
+
+./schedulersim -a3 -d2 -m5 < traces/inner-product.trc > test3/inner-product.trc_a3_d2_m5.out
+
+./schedulersim -a3 -d5 -m2 < traces/inner-product.trc > test3/inner-product.trc_a3_d5_m2.out
+
+./schedulersim -a5 -d2 -m3 < traces/inner-product.trc > test3/inner-product.trc_a5_d2_m3.out
+
+./schedulersim -a5 -d3 -m2 < traces/inner-product.trc > test3/inner-product.trc_a5_d3_m2.out
+
+
+
+./schedulersim -a7 -d1 -m2 < traces/inner-product.trc > test3/inner-product.trc_a7_d1_m2.out
+
+./schedulersim -a6 -d1 -m3 < traces/inner-product.trc > test3/inner-product.trc_a6_d1_m3.out
+
+./schedulersim -a4 -d1 -m5 < traces/inner-product.trc > test3/inner-product.trc_a4_d1_m5.out
+
+./schedulersim -a5 -d1 -m4 < traces/inner-product.trc > test3/inner-product.trc_a5_d1_m4.out
+
+./schedulersim -a3 -d1 -m6 < traces/inner-product.trc > test3/inner-product.trc_a3_d1_m6.out
+
+./schedulersim -a1 -d8 -m1 < traces/inner-product.trc > test3/inner-product.trc_a1_d8_m1.out
+
+./schedulersim -a2 -d7 -m1 < traces/inner-product.trc > test3/inner-product.trc_a2_d7_m1.out
+
+./schedulersim -a1 -d7 -m2 < traces/inner-product.trc > test3/inner-product.trc_a1_d7_m2.out
+
+./schedulersim -a1 -d6 -m3 < traces/inner-product.trc > test3/inner-product.trc_a1_d6_m3.out
+
+./schedulersim -a3 -d6 -m1 < traces/inner-product.trc > test3/inner-product.trc_a3_d6_m1.out
+
+./schedulersim -a7 -d2 -m1 < traces/inner-product.trc > test3/inner-product.trc_a7_d2_m1.out

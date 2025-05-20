@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "__config": "cpp",
+        "__nullptr": "cpp",
+        "cinttypes": "cpp",
+        "cstdint": "cpp",
+        "cstdio": "cpp",
+        "cstdlib": "cpp",
+        "cstring": "cpp"
+    }
+}

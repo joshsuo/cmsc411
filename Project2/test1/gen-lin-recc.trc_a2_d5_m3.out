@@ -1,0 +1,17 @@
+Scheduler Settings
+Scheduler Type: F
+# Registers: 32
+Reservation Station ADD: 2 entries
+Reservation Station DIV: 5 entries
+Reservation Station MEM: 3 entries
+
+Scheduler Statistics
+# Insts: 722420
+# Cycles: 2611126
+# IPC: 0.276670
+# Issue Stall: 1888681
+# Max Insts Fired: 2
+# Max Insts Completed: 2
+ADD FU Max Active: 2
+DIV FU Max Active: 3
+MEM FU Max Active: 3
